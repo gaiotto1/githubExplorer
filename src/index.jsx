@@ -1,5 +1,4 @@
-import React from 'react';
+import { render } from 'react-dom';
+import { App } from './App';
 
-export default function () {
-  return <h1>Teste</h1>
-}
+render(<App />, document.getElementById('root'))
