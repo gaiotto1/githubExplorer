@@ -10,12 +10,12 @@ section.repository-list {
 
     li {
       & + li { // Referência o elemento li sempre que houver um li antes dele
-        margin-top: 20px;
+        margin-top: 25px;
       }
 
       p {
-        font-size: 14px;
-        color: #444;
+        font-size: 13px;
+        color: #FFF;
         margin-top: 8px;
       }
 
